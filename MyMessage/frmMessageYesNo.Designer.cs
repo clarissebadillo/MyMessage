@@ -100,6 +100,7 @@
             this.btnYes.DialogResult = System.Windows.Forms.DialogResult.Yes;
             this.btnYes.FlatAppearance.BorderSize = 0;
             this.btnYes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYes.Font = new System.Drawing.Font("Segoe UI", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnYes.ForeColor = System.Drawing.Color.White;
             this.btnYes.Location = new System.Drawing.Point(68, 246);
             this.btnYes.Name = "btnYes";
@@ -119,6 +120,7 @@
             this.btnNo.DialogResult = System.Windows.Forms.DialogResult.No;
             this.btnNo.FlatAppearance.BorderSize = 0;
             this.btnNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNo.Font = new System.Drawing.Font("Segoe UI", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNo.ForeColor = System.Drawing.Color.White;
             this.btnNo.Location = new System.Drawing.Point(179, 246);
             this.btnNo.Name = "btnNo";

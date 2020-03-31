@@ -35,7 +35,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.lblMessage = new Syncfusion.Windows.Forms.Tools.AutoLabel();
-            this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -107,10 +107,10 @@
             this.lblMessage.Text = "Message";
             this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // gunaElipse1
+            // bunifuElipse1
             // 
-            this.gunaElipse1.Radius = 5;
-            this.gunaElipse1.TargetControl = this.btnOK;
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this.btnOK;
             // 
             // frmMessageError
             // 
@@ -146,6 +146,6 @@
         public Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private System.Windows.Forms.Button btnOK;
         private Syncfusion.Windows.Forms.Tools.AutoLabel lblMessage;
-        private Guna.UI.WinForms.GunaElipse gunaElipse1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }
