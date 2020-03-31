@@ -32,12 +32,12 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.icon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.lblMessage = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             this.btnYes = new System.Windows.Forms.Button();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.btnNo = new System.Windows.Forms.Button();
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             ((System.ComponentModel.ISupportInitialize)(this.icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +47,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(134)))), ((int)(((byte)(248)))));
-            this.lblTitle.Location = new System.Drawing.Point(137, 114);
+            this.lblTitle.Location = new System.Drawing.Point(138, 114);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(72, 32);
             this.lblTitle.TabIndex = 8;
@@ -72,15 +72,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
-            // 
-            // gunaSeparator1
-            // 
-            this.gunaSeparator1.LineColor = System.Drawing.Color.DarkGray;
-            this.gunaSeparator1.Location = new System.Drawing.Point(157, 149);
-            this.gunaSeparator1.Name = "gunaSeparator1";
-            this.gunaSeparator1.Size = new System.Drawing.Size(27, 10);
-            this.gunaSeparator1.TabIndex = 11;
-            this.gunaSeparator1.Thickness = 2;
             // 
             // lblMessage
             // 
@@ -134,16 +125,28 @@
             this.bunifuElipse3.ElipseRadius = 5;
             this.bunifuElipse3.TargetControl = this.btnNo;
             // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.bunifuSeparator1.LineThickness = 3;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(160, 140);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(27, 26);
+            this.bunifuSeparator1.TabIndex = 19;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = false;
+            // 
             // frmMessageYesNo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(350, 359);
+            this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.btnNo);
             this.Controls.Add(this.btnYes);
             this.Controls.Add(this.lblMessage);
-            this.Controls.Add(this.gunaSeparator1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.icon);
             this.Controls.Add(this.pictureBox1);
@@ -164,11 +167,11 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.PictureBox icon;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private Syncfusion.Windows.Forms.Tools.AutoLabel lblMessage;
         private System.Windows.Forms.Button btnYes;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private System.Windows.Forms.Button btnNo;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
     }
 }

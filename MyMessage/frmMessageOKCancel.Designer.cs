@@ -30,12 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.btnOK = new System.Windows.Forms.Button();
             this.lblMessage = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             this.icon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             ((System.ComponentModel.ISupportInitialize)(this.icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,15 +50,6 @@
             this.lblTitle.Size = new System.Drawing.Size(114, 32);
             this.lblTitle.TabIndex = 8;
             this.lblTitle.Text = "Warning!";
-            // 
-            // gunaSeparator1
-            // 
-            this.gunaSeparator1.LineColor = System.Drawing.Color.DarkGray;
-            this.gunaSeparator1.Location = new System.Drawing.Point(161, 149);
-            this.gunaSeparator1.Name = "gunaSeparator1";
-            this.gunaSeparator1.Size = new System.Drawing.Size(27, 10);
-            this.gunaSeparator1.TabIndex = 11;
-            this.gunaSeparator1.Thickness = 2;
             // 
             // btnOK
             // 
@@ -112,6 +103,18 @@
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this.btnOK;
             // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.bunifuSeparator1.LineThickness = 3;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(159, 143);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(27, 26);
+            this.bunifuSeparator1.TabIndex = 19;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = false;
+            // 
             // frmMessageOKCancel
             // 
             this.AcceptButton = this.btnOK;
@@ -119,9 +122,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(350, 359);
+            this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.gunaSeparator1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.icon);
             this.Controls.Add(this.pictureBox1);
@@ -147,5 +150,6 @@
         private System.Windows.Forms.Button btnOK;
         private Syncfusion.Windows.Forms.Tools.AutoLabel lblMessage;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
     }
 }
