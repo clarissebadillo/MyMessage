@@ -69,9 +69,9 @@
             // lblMessage
             // 
             this.lblMessage.AutoSize = false;
-            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 11.55F);
             this.lblMessage.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblMessage.Location = new System.Drawing.Point(40, 168);
+            this.lblMessage.Location = new System.Drawing.Point(40, 170);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(269, 55);
             this.lblMessage.TabIndex = 16;
