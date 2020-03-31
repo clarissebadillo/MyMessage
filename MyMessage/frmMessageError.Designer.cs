@@ -146,7 +146,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Label lblTitle;
         public System.Windows.Forms.PictureBox icon;
-        public Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private System.Windows.Forms.Button btnOK;
         private Syncfusion.Windows.Forms.Tools.AutoLabel lblMessage;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
