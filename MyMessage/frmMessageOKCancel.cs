@@ -57,7 +57,9 @@ namespace MyMessage
                 m_aeroEnabled = CheckAeroEnabled();
                 CreateParams cp = base.CreateParams;
                 if (!m_aeroEnabled)
-                    cp.ClassStyle |= CS_DROPSHADOW; return cp;
+                    cp.ClassStyle |= CS_DROPSHADOW;
+                cp.ExStyle |= 0x02000000;   // WS_EX_COMPOSITED       
+                return cp;
             }
         }
         private bool CheckAeroEnabled()
