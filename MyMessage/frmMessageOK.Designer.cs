@@ -59,7 +59,7 @@
             this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOK.Font = new System.Drawing.Font("Segoe UI", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOK.ForeColor = System.Drawing.Color.White;
-            this.btnOK.Location = new System.Drawing.Point(104, 245);
+            this.btnOK.Location = new System.Drawing.Point(104, 250);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(132, 39);
             this.btnOK.TabIndex = 15;
@@ -71,9 +71,9 @@
             this.lblMessage.AutoSize = false;
             this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 11.55F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblMessage.Location = new System.Drawing.Point(40, 171);
+            this.lblMessage.Location = new System.Drawing.Point(39, 171);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(269, 55);
+            this.lblMessage.Size = new System.Drawing.Size(270, 70);
             this.lblMessage.TabIndex = 16;
             this.lblMessage.Text = "Message";
             this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
