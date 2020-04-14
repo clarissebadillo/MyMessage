@@ -76,11 +76,11 @@
             // lblMessage
             // 
             this.lblMessage.AutoSize = false;
-            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 11.55F);
+            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.lblMessage.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblMessage.Location = new System.Drawing.Point(39, 167);
+            this.lblMessage.Location = new System.Drawing.Point(40, 166);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(270, 70);
+            this.lblMessage.Size = new System.Drawing.Size(270, 80);
             this.lblMessage.TabIndex = 13;
             this.lblMessage.Text = "Message";
             this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -93,7 +93,7 @@
             this.btnYes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYes.Font = new System.Drawing.Font("Segoe UI", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnYes.ForeColor = System.Drawing.Color.White;
-            this.btnYes.Location = new System.Drawing.Point(68, 251);
+            this.btnYes.Location = new System.Drawing.Point(68, 254);
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(105, 39);
             this.btnYes.TabIndex = 14;
@@ -113,7 +113,7 @@
             this.btnNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNo.Font = new System.Drawing.Font("Segoe UI", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNo.ForeColor = System.Drawing.Color.White;
-            this.btnNo.Location = new System.Drawing.Point(179, 251);
+            this.btnNo.Location = new System.Drawing.Point(179, 254);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(105, 39);
             this.btnNo.TabIndex = 15;
@@ -130,7 +130,7 @@
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.bunifuSeparator1.LineThickness = 3;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(160, 140);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(160, 141);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(27, 26);
             this.bunifuSeparator1.TabIndex = 19;
