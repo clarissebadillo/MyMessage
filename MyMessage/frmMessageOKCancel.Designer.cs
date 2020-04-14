@@ -59,7 +59,7 @@
             this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOK.Font = new System.Drawing.Font("Segoe UI", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOK.ForeColor = System.Drawing.Color.White;
-            this.btnOK.Location = new System.Drawing.Point(103, 254);
+            this.btnOK.Location = new System.Drawing.Point(109, 254);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(132, 39);
             this.btnOK.TabIndex = 15;
